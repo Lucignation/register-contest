@@ -1,0 +1,279 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+
+/***************** LANDING BEGINS ***************/
+
+.home-bg{
+    margin: 0;
+    background: url('assets/img/bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.brand{
+    padding: 2% 1%;
+}
+
+.brand img{
+    width: 90px;
+}
+
+.founder-image-crop{
+    max-width: 19%!important;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 150px;
+    /* background-color: red; */
+}
+
+.founder-image-crop img{
+    width: 100px;
+    margin-left: -19%;
+}
+
+.welcme-message{
+    width: 40%;
+    margin: auto;
+    background: #fff;
+    border-radius: 20px 20px 20px 2px;
+    padding: 1.4%;
+    box-shadow: 0px 12px 50px 0px rgba(0, 0, 0, 0.104);
+}
+
+
+.welcome-header{
+    font-size: 25px;
+}
+
+
+.founder-message{
+    font-size: 15px;
+}
+
+.founder-name{
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.company-social-media i{
+    color: red!important;
+    font-size: 23px;
+}
+
+.registration-btn{
+    margin-left: 30%;
+    background-color: #FE0CAC;
+    border-color: #FE0CAC;
+}
+
+
+
+
+/********************  MEDIA QUERY  ********************/
+
+@media (min-width: 1400px) {  }
+
+@media (max-width: 1200px) {
+    .welcme-message{
+        width: 50%;
+        margin-top: 10%;
+    }
+    .registration-btn{
+        margin-left: 25%;
+    }
+ }
+
+@media (max-width: 992px) { }
+
+@media (max-width: 768px) {
+    .welcme-message{
+        width: 80%;
+        margin-top: 14%;
+    }
+    .registration-btn{
+        margin-left: 10%;
+    }
+
+    .founder-image-crop{
+        max-width: 18%!important;
+        height: 100px;
+        overflow: hidden;
+        border-radius: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .welcme-message{
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    .welcome-header{
+        font-size: 17px;
+    }
+
+    .founder-message{
+        font-size: 13px;
+    }
+
+    .founder-image-crop{
+        max-width: 22%!important;
+        height: 70px;
+        overflow: hidden;
+        border-radius: 150px;
+    }
+
+    .founder-image-crop img{
+        margin-left: -56%;
+    }
+
+    .founder-name p{
+        font-size: 14px;
+    }
+
+    .registration-btn{
+        margin-left: 0%;
+    }
+}
+
+
+/***************  LANDING ENDS *******************/
+
+
+
+/**************** REGISTER BEGINS ********************/
+
+.important-field{
+    color: red;
+}
+
+.register-form{
+    width: 70%;
+    margin: auto;
+    background: #ffffff7e;
+    padding: 5%;
+    /* margin-top: 10%; */
+}
+
+.register{
+    margin: 0;
+    padding: 0;
+    background: url('assets/img/registerBG.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.register-header,
+.header-subtitle{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.header-subtitle{
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 9%;
+}
+
+.submit-btn{
+    max-width: 40%!important;
+    margin: auto;
+    margin-top: 18%;
+    margin-bottom: 20%;
+    background-color: #FE0CAC;
+    border-color: #FE0CAC;
+    color: #fff;
+}
+
+.form-check-label{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.form-switch{
+    margin-top: 6%;
+}
+
+.form-check-input:checked {
+    background-color: #FE0CAC;
+    border-color: #FE0CAC;
+}
+.form-check-input{
+    /* background: #FE0CAC; */
+}
+
+
+
+/********************  MEDIA QUERY  ********************/
+
+@media (min-width: 1400px) {  }
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) { }
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .register-form{
+        width: 95%;
+        margin: auto;
+    }
+    .header-subtitle{
+        width: 100%;
+        font-size: 14px;
+        font-style: italic;
+        margin-top: 5%;
+        margin-bottom: 9%;
+    }
+
+    .register-header{
+        margin-top: 9%;
+        font-size: 20px;
+    }
+
+    .form-check-label{
+        font-size: 12px;
+    }
+}
+
+
+/**************** REGISTER ENDS ********************/
+
+
+/**************** FOOTER BEGINS ********************/
+
+.footer a{
+    color:  #3a3a3a;
+    text-decoration: none;
+}
+
+.footer{
+    color:  #3a3a3a;
+    line-height: 1;
+    font-style: italic;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    font-size: 14px;
+}
+
+@media (max-width: 576px) {
+    .footer{
+        color:  #3a3a3a;
+        line-height: 1;
+        font-style: italic;
+        position: absolute;
+        bottom: 10px;
+        right: 0px;
+        font-size: 14px;
+    }
+}
+
+/*************** FOOTER END ******************/
